@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Cadastro</ion-title>
+  </ion-toolbar>
+  <style>
+    .formulario{
+      margin: 5%;
+      margin-top: 50%;
+    }
+    .botao{
+      margin: 5%;
+      margin-bottom: 50%;
+    }
+  </style>
+</ion-header>
+
+<ion-content>
+    <div class="formulario"margin>
+        <ion-item>
+          <ion-input placeholder="Digite seu nome e sobrenome" type="text" style="text-align: center"></ion-input>
+        </ion-item>
+    
+        <ion-item>
+          <ion-input placeholder="Digite seu email" type="email" style="text-align: center"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-input placeholder="Digite sua senha" type="text" style="text-align: center"></ion-input>
+          </ion-item>
+    
+          <ion-item>
+              <ion-input placeholder="Confirmar senha" type="text" style="text-align: center"></ion-input>
+          </ion-item>
+        </div>
+
+    <div class="botao">
+      <span margin>
+          <ion-button expand="block" color="primary" (click)="registrar('home')" >Cadatrar</ion-button>
+        </span>
+      </div>
+</ion-content>

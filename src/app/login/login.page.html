@@ -1,0 +1,36 @@
+<ion-header >
+  <ion-toolbar color="primary">
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+  <style>
+    .logo{
+
+      margin: 100px;
+      padding: 1%;
+      width: 150px;
+    }
+  </style>
+</ion-header>
+
+<ion-content padding>
+  <div ion-margin>
+    <img class="logo" src="assets/img/GloboUnigranrio.png">
+  </div>
+
+  <div margin>
+    <ion-item>
+      <ion-input placeholder="Digite seu email" type="email" style="text-align: center"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input placeholder="Digite sua senha" type="password" style="text-align: center"></ion-input>
+    </ion-item>
+  </div>
+      <span margin>
+        <ion-button expand="block" color="primary" (click)="login('home')" >Entrar</ion-button>
+      </span>
+      <span margin>
+        <ion-button expand="block" color="primary" (click)="cadastro('cadastrar')" fill="outline">Cadastrar</ion-button>
+      </span>
+    
+</ion-content>
